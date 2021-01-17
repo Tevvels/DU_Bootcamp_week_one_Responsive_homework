@@ -1,0 +1,44 @@
+.flex_Right {
+  flex-direction: row-reverse;
+}
+.navbar-header-custom {
+  color: white;
+  font-size: 25px;
+  background: teal;
+  margin-left: 15px;
+}
+.header_custom {
+  margin: 25px 0 25px 5px;
+}
+body {
+  background: lightblue;
+}
+
+.about_me_box {
+  height: 500px;
+  width: 700px;
+  background: white;
+  border: 2px solid navy;
+  margin-top: 50px;
+}
+
+.wrap {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-right: 15px;
+}
+.align {
+  text-align: justify;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  background: teal;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  border-top: 5px solid grey;
+  color: grey;
+}
