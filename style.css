@@ -1,6 +1,11 @@
 .flex_Right {
   flex-direction: row-reverse;
 }
+
+.submit_btn {
+  height: 45px;
+  width: 150px;
+}
 .navbar-header-custom {
   color: white;
   font-size: 25px;
@@ -16,15 +21,11 @@ body {
 }
 
 .about_me_box {
-  height: 500px;
-  width: 700px;
   background: white;
   margin-top: 50px;
 }
 
 .portfolio_box {
-  height: 1150px;
-  width: 700px;
   background: white;
   margin-top: 50px;
 }
@@ -63,4 +64,49 @@ body {
 }
 .space {
   height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .small_screen_margins {
+    margin: 5px;
+  }
+
+  .portfolio_margins {
+    margin: auto 15px;
+  }
+
+  .portfolio_footer_small {
+    bottom: -260%;
+  }
+
+  .contact_footer_small {
+    bottom: -75%;
+  }
+
+  img {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .small_screen_margins {
+    margin: 5px;
+  }
+  .med_screen_contact_margin {
+    margin-top: 50px;
+  }
+  .med_screen_contact_height {
+    height: 60vh;
+  }
+
+  .pusher {
+    margin-right: 75px;
+  }
+  .med_textbox {
+    height: 65%;
+  }
+  .header_custom_med {
+    line-height: 2;
+    font-size: 40px;
+  }
 }
