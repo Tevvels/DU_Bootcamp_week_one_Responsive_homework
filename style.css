@@ -22,6 +22,12 @@ body {
   margin-top: 50px;
 }
 
+.portfolio_box {
+  height: 1150px;
+  width: 700px;
+  background: white;
+  margin-top: 50px;
+}
 .wrap {
   float: left;
   width: 200px;
