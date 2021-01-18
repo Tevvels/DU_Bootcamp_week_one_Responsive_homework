@@ -9,6 +9,7 @@
 }
 .header_custom {
   margin: 25px 0 25px 5px;
+  border-bottom: 1px solid lightblue;
 }
 body {
   background: lightblue;
@@ -18,7 +19,6 @@ body {
   height: 500px;
   width: 700px;
   background: white;
-  border: 2px solid navy;
   margin-top: 50px;
 }
 
@@ -39,6 +39,22 @@ body {
   text-align: center;
   width: 100%;
   height: 50px;
-  border-top: 5px solid grey;
-  color: grey;
+  border-top: 5px solid lightseagreen;
+  color: lightseagreen;
+  line-height: 2.5;
+}
+.portfolio_container {
+  padding-bottom: 50px;
+}
+
+.portfolio_pic {
+  height: 350px;
+  width: 350px;
+}
+
+.portfolio_footer {
+  bottom: -70%;
+}
+.space {
+  height: 50px;
 }
