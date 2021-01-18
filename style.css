@@ -39,9 +39,11 @@ body {
   text-align: justify;
 }
 
+.margins_container {
+  margin: 5px;
+}
 .footer {
   position: absolute;
-  bottom: 0;
   background: teal;
   text-align: center;
   width: 100%;
@@ -49,6 +51,7 @@ body {
   border-top: 5px solid lightseagreen;
   color: lightseagreen;
   line-height: 2.5;
+  margin-top: auto !important;
 }
 .portfolio_container {
   padding-bottom: 50px;
@@ -59,9 +62,6 @@ body {
   width: 350px;
 }
 
-.portfolio_footer {
-  bottom: -70%;
-}
 .space {
   height: 50px;
 }
@@ -73,14 +73,6 @@ body {
 
   .portfolio_margins {
     margin: auto 15px;
-  }
-
-  .portfolio_footer_small {
-    bottom: -260%;
-  }
-
-  .contact_footer_small {
-    bottom: -75%;
   }
 
   img {
@@ -98,7 +90,10 @@ body {
   .med_screen_contact_height {
     height: 60vh;
   }
-
+  .submit_btn {
+    height: 45px;
+    width: 150px;
+  }
   .pusher {
     margin-right: 75px;
   }
@@ -108,5 +103,10 @@ body {
   .header_custom_med {
     line-height: 2;
     font-size: 40px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container_custom {
+    height: 85.62vh;
   }
 }
