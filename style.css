@@ -20,18 +20,16 @@
   border-bottom: 1px solid lightblue;
 }
 body {
-  background: lightblue;
+  background: linear-gradient(to right bottom, lightblue, lightseagreen);
+  font-family: "Oxygen", sans-serif;
 }
 
-.about_me_box {
+.the_box {
   background: white;
   margin-top: 50px;
+  box-shadow: 0 0 10px teal;
 }
 
-.portfolio_box {
-  background: white;
-  margin-top: 50px;
-}
 .wrap {
   float: left;
   width: 200px;
@@ -71,6 +69,14 @@ body {
 
 .image_margins {
   margin: 5px;
+}
+
+.submit_btn {
+  background: teal;
+  height: 50px;
+  width: 150px;
+  margin: 5px 3px 15px 15px;
+  border-radius: 0;
 }
 
 @media only screen and (max-width: 600px) {
