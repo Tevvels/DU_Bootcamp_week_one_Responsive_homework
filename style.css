@@ -2,12 +2,15 @@
   flex-direction: row-reverse;
 }
 
+.portfolio_margins {
+  margin: auto 15px;
+}
 .submit_btn {
   height: 45px;
   width: 150px;
 }
 .navbar-header-custom {
-  color: white;
+  color: white !important;
   font-size: 25px;
   background: teal;
   margin-left: 15px;
@@ -66,13 +69,13 @@ body {
   height: 50px;
 }
 
+.image_margins {
+  margin: 5px;
+}
+
 @media only screen and (max-width: 600px) {
   .small_screen_margins {
     margin: 5px;
-  }
-
-  .portfolio_margins {
-    margin: auto 15px;
   }
 
   img {
@@ -107,6 +110,6 @@ body {
 }
 @media only screen and (min-width: 768px) {
   .container_custom {
-    height: 85.62vh;
+    height: 89.77vh;
   }
 }
