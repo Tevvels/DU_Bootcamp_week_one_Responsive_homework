@@ -1,24 +1,5 @@
-.flex_Right {
-  flex-direction: row-reverse;
-}
+/* general stylings for all 3 pages */
 
-.portfolio_margins {
-  margin: auto 15px;
-}
-.submit_btn {
-  height: 45px;
-  width: 150px;
-}
-.navbar-header-custom {
-  color: white !important;
-  font-size: 25px;
-  background: teal;
-  margin-left: 15px;
-}
-.header_custom {
-  margin: 25px 0 25px 5px;
-  border-bottom: 1px solid lightblue;
-}
 body {
   background: linear-gradient(to right bottom, lightblue, lightseagreen);
   font-family: "Oxygen", sans-serif;
@@ -29,6 +10,33 @@ body {
   margin-top: 50px;
   box-shadow: 0 0 10px teal;
 }
+.margins_container {
+  margin: 5px;
+}
+/* styling for the navigation */
+
+.flex_Right {
+  flex-direction: row-reverse;
+}
+
+.navbar-header-custom {
+  color: white !important;
+  font-size: 25px;
+  background: teal;
+  margin-left: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.header_custom {
+  margin: 25px 0 25px 5px;
+  border-bottom: 1px solid lightblue;
+}
+
+/* the about me section  */
+.align {
+  text-align: justify;
+}
 
 .wrap {
   float: left;
@@ -36,13 +44,36 @@ body {
   height: 200px;
   margin-right: 15px;
 }
-.align {
-  text-align: justify;
+
+/* the portfolio section  */
+
+.portfolio_margins {
+  margin: auto 15px;
 }
 
-.margins_container {
+.portfolio_container {
+  padding-bottom: 50px;
+}
+
+.portfolio_pic {
+  height: 350px;
+  width: 350px;
+}
+
+.image_margins {
   margin: 5px;
 }
+/* the contact section  */
+
+.submit_btn {
+  background: teal;
+  height: 50px;
+  width: 150px;
+  margin: 5px 3px 15px 15px;
+  border-radius: 0;
+}
+
+/* the footer styling */
 .footer {
   position: absolute;
   background: teal;
@@ -54,31 +85,12 @@ body {
   line-height: 2.5;
   margin-top: auto !important;
 }
-.portfolio_container {
-  padding-bottom: 50px;
-}
-
-.portfolio_pic {
-  height: 350px;
-  width: 350px;
-}
 
 .space {
   height: 50px;
 }
 
-.image_margins {
-  margin: 5px;
-}
-
-.submit_btn {
-  background: teal;
-  height: 50px;
-  width: 150px;
-  margin: 5px 3px 15px 15px;
-  border-radius: 0;
-}
-
+/* unique styling for screens smaller or equal too 600px */
 @media only screen and (max-width: 600px) {
   .small_screen_margins {
     margin: 5px;
@@ -88,6 +100,7 @@ body {
     margin-bottom: 25px;
   }
 }
+/* unique styling for screens smaller or equal too 768px */
 
 @media only screen and (max-width: 768px) {
   .small_screen_margins {
@@ -114,6 +127,9 @@ body {
     font-size: 40px;
   }
 }
+
+/* unique styling for screens bigger or equal too 768px */
+
 @media only screen and (min-width: 768px) {
   .container_custom {
     height: 89.77vh;
