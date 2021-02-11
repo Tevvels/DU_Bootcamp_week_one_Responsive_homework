@@ -17,9 +17,47 @@ footer {
   line-height: 60px;
 }
 a:hover {
-  color: darkred;
+  color: white;
+}
+.me {
+  border-radius: 50%;
+  border: 1px solid teal;
 }
 
+.iconRow {
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  margin: auto 0;
+  padding-bottom: 15px;
+}
+
+.iconName {
+  color: white;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.icons {
+  height: 70px;
+  width: 50px;
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+  padding: 15px 10px;
+  border: 1px solid teal;
+  margin: 5px;
+  transition: all 0.8s;
+}
+.icons:hover {
+  color: white;
+  background: teal;
+  width: 100px;
+}
+.resume {
+  height: 72vh;
+  width: 100%;
+  margin-bottom: 5px;
+}
 .the_box {
   background: white;
   margin-top: 50px;
@@ -28,7 +66,10 @@ a:hover {
   transition: all 0.5s;
   border: 2px solid white;
 }
-.the_box:hover {
+.clickHere {
+  color: white;
+}
+.the_box--projects:hover {
   background: rgba(255, 255, 255, 0.25);
   color: white;
   cursor: pointer;
