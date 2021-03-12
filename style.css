@@ -12,7 +12,7 @@ a {
   color: black;
 }
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   line-height: 60px;
 }
@@ -145,7 +145,7 @@ a:hover {
 
 /* the footer styling */
 .footer {
-  position: absolute;
+  position: fixed;
   background: teal;
   text-align: center;
   width: 100%;
